@@ -1,0 +1,65 @@
+version: "3"
+services:
+  server:
+    build:
+      context: .
+      dockerfile: dockerfile.server
+    ports:
+      - "5455:5455"
+    volumes:
+      - ./logs:/app/logs
+
+  client-ionic:
+    build:
+      context: .
+      dockerfile: dockerfile.client
+    environment:
+      - CLIENT_NAME=Ionic
+      - SERVER_HOST=server
+      - SERVER_PORT=5456
+    volumes:
+      - ./logs:/app/logs
+
+  client-lightwei:
+    build:
+      context: .
+      dockerfile: dockerfile.client
+    environment:
+      - CLIENT_NAME=Lightwei
+      - SERVER_HOST=server
+      - SERVER_PORT=5457
+    volumes:
+      - ./logs:/app/logs
+
+  client-koala:
+    build:
+      context: .
+      dockerfile: dockerfile.client
+    environment:
+      - CLIENT_NAME=Koala
+      - SERVER_HOST=server
+      - SERVER_PORT=5458
+    volumes:
+      - ./logs:/app/logs
+
+  client-nostalgy:
+    build:
+      context: .
+      dockerfile: dockerfile.client
+    environment:
+      - CLIENT_NAME=Nostalgy
+      - SERVER_HOST=server
+      - SERVER_PORT=5459
+    volumes:
+      - ./logs:/app/logs
+
+  client-radicci:
+    build:
+      context: .
+      dockerfile: dockerfile.client
+    environment:
+      - CLIENT_NAME=Radicci
+      - SERVER_HOST=server
+      - SERVER_PORT=5460
+    volumes:
+      - ./logs:/app/logs

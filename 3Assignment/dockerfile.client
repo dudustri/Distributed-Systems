@@ -1,0 +1,23 @@
+# Use a base image with Go Version
+FROM golang:latest
+
+# Install Protocol Buffers compiler (protoc)
+RUN apt-get update && apt-get install -y protobuf-compiler
+
+# Install the Go Protocol Buffers compiler plugin
+RUN go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+
+# Install Google gRPC package for Go
+RUN go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+
+# Set the PATH to include Go bin directory for protoc-gen-go
+ENV PATH=$PATH:/go/bin
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy all the code base into the container app
+COPY . /app/
+
+# Define an entrypoint script to run the client with arguments
+ENTRYPOINT ["go", "run", "client/client.go"]

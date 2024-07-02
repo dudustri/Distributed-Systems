@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+option go_package = "grpc/proto";
+
+package replication;
+
+service AuctionService {
+    rpc Bid (BidRequest) returns (AckResponse);
+    rpc Result (ResultRequest) returns (ResultResponse);
+    rpc UpdateNode (BidRequest) returns (AckResponse);
+    rpc HeartBeat (HeartBeatRequest) returns (HeartBeatResponse);
+    rpc CheckNodeFailure (CheckNodeFailureRequest) returns (CheckNodeFailureResponse);
+    rpc Election (ElectionRequest) returns (ElectionResponse);
+}
+
+message BidRequest {
+    int32 bid = 1;
+    string clientId = 2;
+    int32 leaderPID = 3;
+}
+
+message AckResponse {
+    string ack = 1;
+}
+
+message ResultRequest{
+}
+
+message ResultResponse {
+    bool isAuctionEnded = 1;
+    int32 maxBid = 2;
+    string winner = 3;
+}
+
+message HeartBeatRequest{
+    string secondaryNodePort = 1;
+    bool verifyFailure = 2;
+}
+
+message HeartBeatResponse{
+    bool ok = 1;
+}
+
+message CheckNodeFailureRequest{
+    string failureNodePort = 1;
+}
+
+message CheckNodeFailureResponse{
+    bool ok = 1;
+}
+
+message ElectionRequest{
+    int32 portNumber = 1;
+}
+
+message ElectionResponse{
+    bool authorized = 1;
+}

@@ -1,0 +1,24 @@
+2023/10/30 13:08:01 ------- SERVER LOG: chitty chat server --------
+2023/10/30 13:08:01 Started server at port: 5455
+2023/10/30 13:08:16 client_1 requested to join in the channel chittychat [Vector Clock-> chitty chat server: 1, client_1: 1] 
+2023/10/30 13:08:16 Broadcasting the message sent by client_1 to all clients in channel chittychat  -> Participant client_1 joined Chitty-Chat at [Vector Clock -> client_1: 1, chitty chat server: 2] 
+2023/10/30 13:08:48 client_2 requested to join in the channel chittychat [Vector Clock-> chitty chat server: 3, client_1: 1, client_2: 1] 
+2023/10/30 13:08:48 Broadcasting the message sent by client_2 to all clients in channel chittychat  -> Participant client_2 joined Chitty-Chat at [Vector Clock -> client_2: 1, chitty chat server: 4, client_1: 1] 
+2023/10/30 13:08:48 Sending the message to client_1 [Vector Clock -> chitty chat server: 5, client_1: 1, client_2: 1]: Participant client_2 joined Chitty-Chat at [Vector Clock -> client_2: 1, chitty chat server: 4, client_1: 1] 
+2023/10/30 13:09:02 client_3 requested to join in the channel chittychat [Vector Clock-> client_1: 1, client_2: 1, client_3: 1, chitty chat server: 6] 
+2023/10/30 13:09:02 Broadcasting the message sent by client_3 to all clients in channel chittychat  -> Participant client_3 joined Chitty-Chat at [Vector Clock -> client_3: 1, chitty chat server: 7, client_1: 1, client_2: 1] 
+2023/10/30 13:09:02 Sending the message to client_1 [Vector Clock -> chitty chat server: 8, client_1: 1, client_2: 1, client_3: 1]: Participant client_3 joined Chitty-Chat at [Vector Clock -> client_3: 1, chitty chat server: 7, client_1: 1, client_2: 1] 
+2023/10/30 13:09:02 Sending the message to client_2 [Vector Clock -> chitty chat server: 9, client_1: 1, client_2: 1, client_3: 1]: Participant client_3 joined Chitty-Chat at [Vector Clock -> client_3: 1, chitty chat server: 7, client_1: 1, client_2: 1] 
+2023/10/30 13:09:39 Server received a Publish request from client_1 to channel chittychat [Vector Clock-> client_3: 1, chitty chat server: 10, client_1: 5, client_2: 1]:. Message: Heeeeeeeeeey guys ! :)
+2023/10/30 13:09:39 Broadcasting the message sent by client_1 to all clients in channel chittychat  -> Heeeeeeeeeey guys ! :) 
+2023/10/30 13:09:39 Sending the message to client_2 [Vector Clock -> chitty chat server: 11, client_1: 5, client_2: 1, client_3: 1]: Heeeeeeeeeey guys ! :) 
+2023/10/30 13:09:39 Sending the message to client_3 [Vector Clock -> client_3: 1, chitty chat server: 12, client_1: 5, client_2: 1]: Heeeeeeeeeey guys ! :) 
+2023/10/30 13:09:57 client_1 left the channel chittychat [Vector Clock -> client_1: 5, client_2: 1, client_3: 1, chitty chat server: 13]
+2023/10/30 13:09:57 Broadcasting the message sent by client_1 to all clients in channel chittychat  -> Participant client_1 left Chitty-Chat at Vector Clock ->client_1: 5, client_2: 1, client_3: 1, chitty chat server: 13 
+2023/10/30 13:09:57 Sending the message to client_2 [Vector Clock -> chitty chat server: 14, client_1: 5, client_2: 1, client_3: 1]: Participant client_1 left Chitty-Chat at Vector Clock ->client_1: 5, client_2: 1, client_3: 1, chitty chat server: 13 
+2023/10/30 13:09:57 Sending the message to client_3 [Vector Clock -> client_1: 5, client_2: 1, client_3: 1, chitty chat server: 15]: Participant client_1 left Chitty-Chat at Vector Clock ->client_1: 5, client_2: 1, client_3: 1, chitty chat server: 13 
+2023/10/30 13:10:00 client_2 left the channel chittychat [Vector Clock -> chitty chat server: 16, client_1: 5, client_2: 1, client_3: 1]
+2023/10/30 13:10:00 Broadcasting the message sent by client_2 to all clients in channel chittychat  -> Participant client_2 left Chitty-Chat at Vector Clock ->chitty chat server: 16, client_1: 5, client_2: 1, client_3: 1 
+2023/10/30 13:10:00 Sending the message to client_3 [Vector Clock -> client_3: 1, chitty chat server: 17, client_1: 5, client_2: 1]: Participant client_2 left Chitty-Chat at Vector Clock ->chitty chat server: 16, client_1: 5, client_2: 1, client_3: 1 
+2023/10/30 13:10:04 client_3 left the channel chittychat [Vector Clock -> chitty chat server: 18, client_1: 5, client_2: 1, client_3: 1]
+2023/10/30 13:10:04 Broadcasting the message sent by client_3 to all clients in channel chittychat  -> Participant client_3 left Chitty-Chat at Vector Clock ->client_2: 1, client_3: 1, chitty chat server: 18, client_1: 5 

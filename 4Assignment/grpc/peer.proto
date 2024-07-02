@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "grpc/proto";
+
+package peerMutex;
+
+service CriticalSection {
+    rpc RequestToEnterCriticalSection (RequestMessage) returns (ResponseMessage);
+    rpc LeaveCriticalSection (RequestMessage) returns (ResponseMessage);
+    rpc ValidateRequestEnterCriticalSection (ValidationMessage) returns (ResponseMessage);
+}
+
+message RequestMessage {
+    int32 timestamp = 1;
+    int32 process_id = 2;
+    string message = 3;
+}
+
+message ResponseMessage {
+    bool permission = 1;
+}
+
+message ValidationMessage {
+    int32 timestamp = 1;
+}
+
+

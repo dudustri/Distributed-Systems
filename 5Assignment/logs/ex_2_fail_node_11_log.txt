@@ -1,0 +1,54 @@
+2023/11/28 03:10:44 Started node at port: 5450
+2023/11/28 03:10:44 Started secondary node 1 with PID 22803
+2023/11/28 03:10:44 Started secondary node 2 with PID 22809
+2023/11/28 03:10:45 Started secondary node 3 with PID 22900
+2023/11/28 03:11:00 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:11:00 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:11:00 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:11:15 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:11:15 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:11:15 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:11:30 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:11:30 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:11:30 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:11:45 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:11:45 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:11:45 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:12:00 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:12:00 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:12:00 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:12:15 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:12:15 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:12:15 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:12:30 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:12:30 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:12:45 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:12:45 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:12:46 Heartbeat time error found for connection: &{0xc000100400} - port: localhost:5452
+2023/11/28 03:12:46 Sending a Check Node Failure request for all other secondary nodes...
+2023/11/28 03:12:46 Error checking node failure gRPC connection rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:5452: connect: connection refused"
+2023/11/28 03:12:46 Error checking node failure gRPC connection rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:5452: connect: connection refused"
+2023/11/28 03:12:46 Check Node Failure by secondary nodes completed.
+2023/11/28 03:12:46 The node cannot be reached even for the secondary nodes. Restarting the node...
+2023/11/28 03:12:46 Trying to find the process running for port localhost:5452
+2023/11/28 03:12:46 Killing the PID 22809 and respawning the node for localhost:5452 ...
+2023/11/28 03:12:46 Started secondary node 2 with PID 24185
+2023/11/28 03:12:57 Heartbeat time error found for connection: &{0xc000100400} - port: localhost:5452
+2023/11/28 03:12:57 Sending a Check Node Failure request for all other secondary nodes...
+2023/11/28 03:12:57 Check Node Failure by secondary nodes completed.
+2023/11/28 03:12:57 The node could be reached for the secondary nodes. Updating the heartbeat time and continuing the process...
+2023/11/28 03:13:00 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:13:00 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:13:01 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:13:15 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:13:15 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:13:16 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:13:30 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:13:30 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:13:31 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:13:45 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:13:45 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:13:46 Heartbeat received from the secondary node: localhost:5452
+2023/11/28 03:14:00 Heartbeat received from the secondary node: localhost:5451
+2023/11/28 03:14:00 Heartbeat received from the secondary node: localhost:5453
+2023/11/28 03:14:01 Heartbeat received from the secondary node: localhost:5452

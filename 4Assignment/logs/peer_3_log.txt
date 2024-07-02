@@ -1,0 +1,11 @@
+2023/11/12 21:22:23 Started peer node at port: 5456
+2023/11/12 21:22:23 Initializing the service. Waiting for 2 clients to start the network...
+2023/11/12 21:22:23 2 clients are connected. Network is ready for use
+2023/11/12 21:22:29 External Peer Entering in the Critical Section - Node 1: a
+2023/11/12 21:22:34 External Peer Leaving the Critical Section - Node 1: Leaving critical section
+2023/11/12 21:22:35 External Peer Entering in the Critical Section - Node 2: b
+2023/11/12 21:22:40 External Peer Leaving the Critical Section - Node 2: Leaving critical section
+2023/11/12 21:22:44 External Peer Entering in the Critical Section - Node 1: bdale
+2023/11/12 21:22:49 External Peer Leaving the Critical Section - Node 1: Leaving critical section
+2023/11/12 21:22:50 External Peer Entering in the Critical Section - Node 2: gremio
+2023/11/12 21:22:55 External Peer Leaving the Critical Section - Node 2: Leaving critical section

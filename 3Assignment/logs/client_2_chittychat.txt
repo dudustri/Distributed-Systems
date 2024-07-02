@@ -1,0 +1,7 @@
+2023/10/30 13:08:48 ------- CLIENT LOG: client_2 --------
+2023/10/30 13:08:48 client_2 send a request to join the channel chittychat. Waiting for server side confirmation... [Vector Clock -> client_2: 1]
+2023/10/30 13:08:48 (Very Friendly Server)[Vector Clock-> chitty chat server: 4, client_1: 1, client_2: 2]: Participant client_2 joined Chitty-Chat at [Vector Clock -> chitty chat server: 4, client_1: 1, client_2: 1] 
+Welcome to the channel chittychat client_2! 
+2023/10/30 13:09:02 (client_3)[Vector Clock-> client_2: 3, chitty chat server: 9, client_1: 1, client_3: 1]: Participant client_3 joined Chitty-Chat at [Vector Clock -> client_3: 1, chitty chat server: 7, client_1: 1, client_2: 1] 
+2023/10/30 13:09:39 (client_1)[Vector Clock-> client_2: 4, chitty chat server: 11, client_1: 5, client_3: 1]: Heeeeeeeeeey guys ! :) 
+2023/10/30 13:09:57 (client_1)[Vector Clock-> client_2: 5, chitty chat server: 14, client_1: 5, client_3: 1]: Participant client_1 left Chitty-Chat at Vector Clock ->client_1: 5, client_2: 1, client_3: 1, chitty chat server: 13 

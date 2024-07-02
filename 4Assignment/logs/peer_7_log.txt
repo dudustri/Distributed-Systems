@@ -1,0 +1,9 @@
+2023/11/12 14:31:08 Started peer node at port: 5454
+2023/11/12 14:36:54 External Peer Entering in the Critical Section - Node 1: Hello from Node 1
+2023/11/12 14:36:54 External Peer Leaving the Critical Section - Node 1: Leaving critical section
+2023/11/12 14:37:17 External Peer Entering in the Critical Section - Node 2: Hello from Node 1
+2023/11/12 14:37:17 External Peer Leaving the Critical Section - Node 2: Leaving critical section
+2023/11/12 14:37:25 External Peer Entering in the Critical Section - Node 2: Hello from Node 2
+2023/11/12 14:37:25 External Peer Leaving the Critical Section - Node 2: Leaving critical section
+2023/11/12 14:37:33 External Peer Entering in the Critical Section - Node 2: Hello from Node 2
+2023/11/12 14:37:33 External Peer Leaving the Critical Section - Node 2: Leaving critical section

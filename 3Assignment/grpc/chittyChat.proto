@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "grpc/proto";
+
+package chittyChat;
+
+service ChittyChatService {
+    rpc JoinChannel(Channel) returns (stream Message) {}
+    rpc Publish(stream Message) returns (MessageAck) {}
+}
+
+message Channel {
+    string name = 1;
+    string senders_name = 2;
+}
+
+message Message {
+    string sender = 1;
+    Channel channel = 2;
+    string message = 3;
+    map<string, int64> vector_clock = 4;
+}
+
+message MessageAck {
+    string status = 1;
+}
+
+
+

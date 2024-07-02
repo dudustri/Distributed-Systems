@@ -1,0 +1,13 @@
+2023/11/28 03:12:46 Started node at port: 5452
+2023/11/28 03:12:57 An secondary node is sending a heartbeat. It is verifying if this node still operational. Informing it back that it still alive...
+2023/11/28 03:12:57 An secondary node is sending a heartbeat. It is verifying if this node still operational. Informing it back that it still alive...
+2023/11/28 03:13:01 Sending a HeartBeat to the primary node
+2023/11/28 03:13:01 Heartbeat received from the primary node (leader)
+2023/11/28 03:13:16 Sending a HeartBeat to the primary node
+2023/11/28 03:13:16 Heartbeat received from the primary node (leader)
+2023/11/28 03:13:31 Sending a HeartBeat to the primary node
+2023/11/28 03:13:31 Heartbeat received from the primary node (leader)
+2023/11/28 03:13:46 Sending a HeartBeat to the primary node
+2023/11/28 03:13:46 Heartbeat received from the primary node (leader)
+2023/11/28 03:14:01 Sending a HeartBeat to the primary node
+2023/11/28 03:14:01 Heartbeat received from the primary node (leader)

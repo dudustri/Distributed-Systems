@@ -1,0 +1,20 @@
+2023/11/12 21:22:17 Started peer node at port: 5455
+2023/11/12 21:22:17 Initializing the service. Waiting for 2 clients to start the network...
+2023/11/12 21:22:26 2 clients are connected. Network is ready for use
+2023/11/12 21:22:29 External Peer Entering in the Critical Section - Node 1: a
+2023/11/12 21:22:34 There is another node in the critical section [Node Id: 1]. Please, wait...(0)
+2023/11/12 21:22:34 External Peer Leaving the Critical Section - Node 1: Leaving critical section
+2023/11/12 21:22:35 There is another node in the critical section [Node Id: 0]. Please, wait...(1)
+2023/11/12 21:22:35 This peer node now is in the critical section! ID: 2
+2023/11/12 21:22:35 Printing the message during the critical section:b
+2023/11/12 21:22:35 Waiting for 5 seconds before leaving the critical section
+2023/11/12 21:22:40 This peer node now left the critical section! ID: 2
+2023/11/12 21:22:44 External Peer Entering in the Critical Section - Node 1: bdale
+2023/11/12 21:22:48 There is another node in the critical section [Node Id: 1]. Please, wait...(0)
+2023/11/12 21:22:49 There is another node in the critical section [Node Id: 1]. Please, wait...(1)
+2023/11/12 21:22:49 External Peer Leaving the Critical Section - Node 1: Leaving critical section
+2023/11/12 21:22:50 There is another node in the critical section [Node Id: 0]. Please, wait...(2)
+2023/11/12 21:22:50 This peer node now is in the critical section! ID: 2
+2023/11/12 21:22:50 Printing the message during the critical section:gremio
+2023/11/12 21:22:50 Waiting for 5 seconds before leaving the critical section
+2023/11/12 21:22:55 This peer node now left the critical section! ID: 2

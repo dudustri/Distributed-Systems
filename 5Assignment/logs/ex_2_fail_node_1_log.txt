@@ -1,0 +1,33 @@
+2023/11/28 03:10:45 Started node at port: 5451
+2023/11/28 03:11:00 Sending a HeartBeat to the primary node
+2023/11/28 03:11:00 Heartbeat received from the primary node (leader)
+2023/11/28 03:11:15 Sending a HeartBeat to the primary node
+2023/11/28 03:11:15 Heartbeat received from the primary node (leader)
+2023/11/28 03:11:30 Sending a HeartBeat to the primary node
+2023/11/28 03:11:30 Heartbeat received from the primary node (leader)
+2023/11/28 03:11:45 Sending a HeartBeat to the primary node
+2023/11/28 03:11:45 Heartbeat received from the primary node (leader)
+2023/11/28 03:12:00 Sending a HeartBeat to the primary node
+2023/11/28 03:12:00 Heartbeat received from the primary node (leader)
+2023/11/28 03:12:15 Sending a HeartBeat to the primary node
+2023/11/28 03:12:15 Heartbeat received from the primary node (leader)
+2023/11/28 03:12:30 Sending a HeartBeat to the primary node
+2023/11/28 03:12:30 Heartbeat received from the primary node (leader)
+2023/11/28 03:12:45 Sending a HeartBeat to the primary node
+2023/11/28 03:12:45 Heartbeat received from the primary node (leader)
+2023/11/28 03:12:46 Received a request from the leader to check a failure in node localhost:5452
+2023/11/28 03:12:46 Sending a Heartbeat for the possible failure in node
+2023/11/28 03:12:46 Heartbeat failed with error: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:5452: connect: connection refused"
+2023/11/28 03:12:57 Received a request from the leader to check a failure in node localhost:5452
+2023/11/28 03:12:57 Sending a Heartbeat for the possible failure in node
+2023/11/28 03:12:57 Message received from the node, it still operational. Sending a positive feedback to the leader (primary node).
+2023/11/28 03:13:00 Sending a HeartBeat to the primary node
+2023/11/28 03:13:00 Heartbeat received from the primary node (leader)
+2023/11/28 03:13:15 Sending a HeartBeat to the primary node
+2023/11/28 03:13:15 Heartbeat received from the primary node (leader)
+2023/11/28 03:13:30 Sending a HeartBeat to the primary node
+2023/11/28 03:13:30 Heartbeat received from the primary node (leader)
+2023/11/28 03:13:45 Sending a HeartBeat to the primary node
+2023/11/28 03:13:45 Heartbeat received from the primary node (leader)
+2023/11/28 03:14:00 Sending a HeartBeat to the primary node
+2023/11/28 03:14:00 Heartbeat received from the primary node (leader)
